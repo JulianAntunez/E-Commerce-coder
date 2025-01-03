@@ -1,17 +1,15 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="es" data-bs-theme="auto">
   <head><script src="./assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
-    <title>Carousel Template · Bootstrap v5.3</title>
+    <link rel="icon" href="../assets/icon/icons8-tienda.gif" type="image/x-icon">
+    
+    
+    <title>J&O Solutions</title>
 
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/"> -->
-
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"> -->
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -117,13 +115,29 @@
               Home
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#" class="nav-link text-white">
               <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                 <use xlink:href="#grid" />
               </svg>
               Productos
             </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#grid" />
+              </svg>
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="productosdropdown">
+              <a class="dropdown-item" href="./pages/memoria.html">RAM</a>
+              <a class="dropdown-item" href="/pages/procesadores.html">Procesadores</a>
+              <a class="dropdown-item" href="/pages/gpu.html">GPU</a>
+              <a class="dropdown-item" href="/pages/mouse.html">Mouse</a>
+              <a class="dropdown-item" href="/pages/teclados.html">Teclado</a>
+            </div>
+          
           </li>
           <li>
             <a href="#" class="nav-link text-white">
@@ -133,14 +147,14 @@
               Carrito
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#" class="nav-link text-white">
               <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                 <use xlink:href="#people-circle" />
               </svg>
               Customers
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
       <form class="d-flex" role="search">
