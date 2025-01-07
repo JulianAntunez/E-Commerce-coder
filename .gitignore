@@ -1,12 +1,2 @@
-git status: Verifica el estado de los archivos en el directorio de trabajo y el área de preparación.
-
-git add . <--- agrega todo el repositorio
-git commit -m "mensaje de commit" <--- agrega un mensaje de commit
-git push <--- sube los cambios a github
-
-git log: Muestra el historial de commits en el repositorio.
-
-
-siempre que vuelvo a usar el proyecto tengo que hacer  
-
-git pull, esto actualiza mi repositorio con lo que esta en github
+notas.txt
+node_modules
