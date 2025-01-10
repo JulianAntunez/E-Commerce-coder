@@ -165,8 +165,13 @@ a:link, :visited{
     text-decoration: none;
     
 }}
-.footer{
-    background-color: #024959;
+footer{
+    position:absolute;
+    bottom: 0;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .menu-nav a:link, :visited{
@@ -255,3 +260,11 @@ h1{
     background-color: aqua;
     transform: .5s;
 }
+/* footer{
+    position:absolute;
+    bottom: 0;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 20px;
+} */
